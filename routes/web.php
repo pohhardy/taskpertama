@@ -28,3 +28,5 @@ Route::resource('admin/schedule', 'App\\Http\\Controllers\\Admin\scheduleControl
 Route::resource('admin/replacement', 'App\Http\Controllers\Admin\replacementController');
 Route::get('/laporan/replacement_class', [LaporanController::class, 'index']);
 Route::get('/laporan/replacement_class/pdf', [LaporanController::class, 'cetak_pdf']);
+Route::resource('admin/location', 'App\Http\Controllers\Admin\locationController');
+Route::resource('admin/room', 'App\Http\Controllers\Admin\roomController');

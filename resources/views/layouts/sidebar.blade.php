@@ -63,4 +63,20 @@
             </p>
         </a>
     </li>
+    <li class="nav-item">
+        <a href="/admin/Location" class="nav-link">
+            <i class="nav-icon fas fa-fingerprint"></i>
+            <p>
+            Location
+            </p>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/admin/Room" class="nav-link">
+            <i class="nav-icon fas fa-fingerprint"></i>
+            <p>
+            Room
+            </p>
+        </a>
+    </li>
 </ul>
